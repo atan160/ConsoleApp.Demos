@@ -15,9 +15,9 @@ Console.WriteLine("Please enter your age");
 age = Convert.ToInt32(Console.ReadLine());
 
 // Proces the data
-int workingYearsLeft = retirementAge - age;
+int workingYearsRemaining = retirementAge - age;
 
 // Output the result to the user
 Console.WriteLine($"Your full name is: {firstName} {lastName}");
 Console.WriteLine($"Your age is: {age}");
-Console.WriteLine($"Your working years remaining: {workingYearsLeft}");
+Console.WriteLine($"Your working years remaining: {workingYearsRemaining}");
